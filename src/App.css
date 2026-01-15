@@ -1,0 +1,22 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--primary-bg);
+  color:#fff;
+}
+html{
+  overflow-x: hidden;
+  
+}
+:root{
+  --primary-bg: #0D1117;
+   --secondary-bg: #161b22;
+   --tertiary-bg:#21262D;
+}

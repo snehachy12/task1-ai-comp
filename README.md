@@ -1,16 +1,52 @@
-# React + Vite
+AI-Based React Component Library (Vite + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an AI-powered React component platform built using React + Vite, designed to help developers quickly generate and use modern, reusable UI components.
 
-Currently, two official plugins are available:
+It provides a collection of ready-to-use components such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Authentication Pages (Sign In / Sign Up UI)
 
-## React Compiler
+Forms & Input Layouts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Background Designs & UI Sections
 
-## Expanding the ESLint configuration
+Reusable Buttons, Cards, and Layout Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive UI Blocks for Web Applications
+
+The goal of this platform is to deliver clean, professional, and production-ready components that can be directly integrated into any React application, saving development time while maintaining high UI quality.
+
+Tech Stack
+
+React
+
+Vite
+
+Tailwind CSS (Optional / Supported)
+
+Framer Motion (for animations, if enabled)
+
+Key Features
+
+AI-assisted component generation
+
+Modern UI and responsive layouts
+
+Easy copy-paste integration into projects
+
+Clean and scalable folder structure
+
+Fast development with Vite + HMR
+
+Getting Started
+1. Install Dependencies
+npm install
+
+2. Run Development Server
+npm run dev
+
+3. Build for Production
+npm run build
+
+4. Preview Production Build
+npm run preview

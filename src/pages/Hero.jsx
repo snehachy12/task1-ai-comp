@@ -233,7 +233,7 @@ export default function Hero() {
             </div>
             <div>
               <p className="font-extrabold leading-none">GENU AI</p>
-            
+
             </div>
           </div>
 
@@ -422,11 +422,10 @@ export default function Hero() {
             <motion.div
               key={i}
               whileHover={{ y: -10 }}
-              className={`rounded-3xl border p-7 shadow-lg transition relative overflow-hidden ${
-                p.highlight
+              className={`rounded-3xl border p-7 shadow-lg transition relative overflow-hidden ${p.highlight
                   ? "border-violet-400/40 bg-gradient-to-b from-violet-500/15 to-blue-500/10"
                   : "border-white/10 bg-white/5"
-              }`}
+                }`}
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-violet-600/5 opacity-70" />
               <div className="relative z-10">
@@ -447,11 +446,10 @@ export default function Hero() {
 
                 <button
                   onClick={() => navigate("/home")}
-                  className={`mt-7 w-full py-3 rounded-2xl font-semibold transition shadow-lg ${
-                    p.highlight
+                  className={`mt-7 w-full py-3 rounded-2xl font-semibold transition shadow-lg ${p.highlight
                       ? "bg-gradient-to-r from-blue-500 to-violet-600 hover:opacity-95"
                       : "border border-white/10 bg-white/5 hover:bg-white/10"
-                  }`}
+                    }`}
                 >
                   {p.highlight ? "Go Pro" : "Choose Plan"}
                 </button>

@@ -8,5 +8,11 @@ export default {
     extend: {},
   },
   plugins: [],
+  "compilerOptions": {
+    "baseUrl":".",
+    "path": {
+      "@/*": ["./src/*"]
+    }
+  }
   
 }
